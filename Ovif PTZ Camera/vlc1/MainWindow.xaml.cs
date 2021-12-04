@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
@@ -32,5 +33,16 @@ namespace vlc1
             myVlcControl.MediaPlayer.Play(new Uri("http://download.blender.org/peach/" +
                 "bigbuckbunny_movies/big_buck_bunny_480p_surround-fix.avi"));
         }
+
+        public void updateFiles()
+        {
+            string Name = "Basava";
+            string Qualification = "BE";
+            int YearOfPassOut = 2018;
+
+            Console.WriteLine("Standard DateTime Format Specifiers");
+        }
     }
+
+
 }
