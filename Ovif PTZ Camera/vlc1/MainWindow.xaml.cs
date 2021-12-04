@@ -41,6 +41,8 @@ namespace vlc1
             int YearOfPassOut = 2018;
 
             Console.WriteLine("Standard DateTime Format Specifiers");
+            Console.WriteLine( Name + Qualification);
+            
         }
     }
 
